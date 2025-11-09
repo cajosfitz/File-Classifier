@@ -1,0 +1,3 @@
+python file_classifier.py
+
+& "C:\Python39\Scripts\pyinstaller.exe" --onefile --noconsole --icon="Sortify-Logo.ico" file_classifier.py

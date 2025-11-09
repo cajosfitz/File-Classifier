@@ -1,0 +1,31 @@
+{
+    "sources": [
+        "C:/Users/MyPc/classifier/test"
+    ],
+    "recursive": true,
+    "rules": [
+        {
+            "enabled": true,
+            "name": "FS",
+            "keyword": "FS",
+            "destination": "C:/Users/MyPc/classifier/result/FS",
+            "date_filter": {
+                "mode": "before",
+                "date1": "2025-10-05",
+                "date2": ""
+            }
+        },
+        {
+            "enabled": true,
+            "name": "EL",
+            "keyword": "EL",
+            "destination": "C:/Users/MyPc/classifier/result/EL",
+            "date_filter": {
+                "mode": "before",
+                "date1": "2020-10-05",
+                "date2": ""
+            }
+        }
+    ],
+    "conflict_folder": "C:/Users/MyPc/classifier/Conflicts"
+}
