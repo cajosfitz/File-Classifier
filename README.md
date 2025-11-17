@@ -26,15 +26,8 @@ The ready-to-use, installation-free `.exe` for Windows is available on Gumroad.
 
 I believe in full transparency. The source code for this tool is 100% open for review. This project is also scanned by VirusTotal to ensure it's safe.
 
-我相信完全的透明。本工具的原始碼 100% 公開，可供審查。專案也經過 VirusTotal 掃描以確保其安全性。
+我相信完全的透明。本工具的原始碼 100% 公開，可供審查。
 
-*   **VirusTotal Report:** [Link to your VirusTotal report] 
-
-## How to Use (for Developers) (開發者使用說明)
-
-1.  Clone this repository.
-2.  Make sure you have Python installed.
-3.  Run `python file_classifier.py` in your terminal.
 
 ---
 Created with ❤️ by FitzSolves.

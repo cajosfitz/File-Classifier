@@ -1,11 +1,18 @@
 """
-語言字典檔
-所有介面上的文字都儲存在這裡，實現程式邏輯與顯示文字的分離。
+語言字典檔 V2.2
 """
 
 LANGUAGES = {
     "zh_tw": {
-        "window_title": "檔案自動分類工具 V2.1",
+        "window_title": "檔案自動分類工具 V2.2",
+        "operation_mode_label": "操作模式:",
+        "copy_mode_radio": "複製檔案 (來源檔案將保留)",
+        "move_mode_radio": "移動檔案 (來源檔案將被移動)",
+        "log_copied": "  -> 已複製 '{}' (規則: '{}')",
+        "log_moved": "  -> 已移動 '{}' (規則: '{}')",
+        "log_copy_failed": "  !! 複製失敗: '{}', 原因: {}",
+        "log_move_failed": "  !! 移動失敗: '{}', 原因: {}",
+        # --- 以下與 V2.1 相同 ---
         "profile_frame_title": "E. 設定檔管理",
         "load_profile_btn": "載入",
         "save_profile_btn": "儲存",
@@ -55,10 +62,8 @@ LANGUAGES = {
         "log_scanning": "掃描: {}...",
         "log_read_error": "錯誤: 無法讀取 {}: {}",
         "log_task_complete": "=== 任務完成 @ {} ===",
-        "log_summary": "成功分類 {} 個檔案，衝突 {} 個。",
+        "log_summary": "成功處理 {} 個檔案，衝突 {} 個。",
         "log_duration": "總耗時: {:.2f} 秒。",
-        "log_copied": "  -> '{}' 符合 '{}'",
-        "log_copy_failed": "  !! 複製失敗: '{}', 原因: {}",
         "log_conflict": "  !! '{}' 衝突 ({})",
         "log_conflict_failed": "  !! 移至衝突資料夾失敗: '{}', 原因: {}",
         "date_display_none": "無",
@@ -83,7 +88,15 @@ LANGUAGES = {
         "copied_suffix": " (複製)",
     },
     "en": {
-        "window_title": "File Classifier V2.1",
+        "window_title": "File Classifier V2.2",
+        "operation_mode_label": "Operation Mode:",
+        "copy_mode_radio": "Copy Files (Source files will be kept)",
+        "move_mode_radio": "Move Files (Source files will be moved)",
+        "log_copied": "  -> Copied '{}' (Rule: '{}')",
+        "log_moved": "  -> Moved '{}' (Rule: '{}')",
+        "log_copy_failed": "  !! Copy failed: '{}', Reason: {}",
+        "log_move_failed": "  !! Move failed: '{}', Reason: {}",
+        # --- Below is same as V2.1 ---
         "profile_frame_title": "E. Profile Management",
         "load_profile_btn": "Load",
         "save_profile_btn": "Save",
@@ -133,10 +146,8 @@ LANGUAGES = {
         "log_scanning": "Scanning: {}...",
         "log_read_error": "Error: Cannot read folder {}: {}",
         "log_task_complete": "=== Task Finished @ {} ===",
-        "log_summary": "Successfully classified {} files, with {} conflicts.",
+        "log_summary": "Successfully processed {} files, with {} conflicts.",
         "log_duration": "Total time elapsed: {:.2f} seconds.",
-        "log_copied": "  -> '{}' matches rule '{}'",
-        "log_copy_failed": "  !! Copy failed: '{}', Reason: {}",
         "log_conflict": "  !! '{}' has conflicts ({})",
         "log_conflict_failed": "  !! Move to conflict folder failed: '{}', Reason: {}",
         "date_display_none": "None",

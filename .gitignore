@@ -2,7 +2,10 @@
 __pycache__/
 *.pyc
 
-# Generated folders by PyInstaller
+# IDE settings folder
+.vscode/
+
+# PyInstaller generated files and folders
 build/
 dist/
 *.spec
@@ -10,5 +13,19 @@ dist/
 # User-specific profiles folder
 profiles/
 
-# IDE settings folder
-.vscode/
+# --- Fitz's Personal Folders & Files to Ignore ---
+
+# Old config file from V1
+config.json
+
+# Personal test and output folders
+result/
+test/
+upload/
+Conflicts/
+Gumroad/
+
+# Personal notes and specific assets
+新文字文件.txt
+Sortify-Logo.ico
+*.ico
